@@ -29,7 +29,7 @@ All data is based on publicly available information from 2024-2025.
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd .cursor-tutor
+cd quant-ranking
 ```
 
 2. Start a local server:
