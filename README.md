@@ -4,6 +4,8 @@
 
 A table to explore, a founder to look up, and a reminder to ask which year the numbers came from.
 
+![The local ranking browser with its dataset notice](docs/images/preview.png)
+
 ```mermaid
 flowchart LR
   A[Stored fund dataset] --> B[Country and ranking filters]
@@ -31,7 +33,7 @@ The website includes data for:
 - **18 US Quantitative Hedge Funds** including Renaissance Technologies, Two Sigma, Citadel, Bridgewater Associates, and more
 - **15 Chinese Quantitative Hedge Funds** including 幻方量化 (High-Flyer), 明汯投资 (Minghong), 九坤投资 (Ubiquant), and other top Chinese quant funds
 
-All data is based on publicly available information from 2024-2025.
+The stored dataset has no verified source dates for individual figures. Treat its rankings, returns and biographies as unverified material in a browsing experiment.
 
 ## Getting Started
 
@@ -96,13 +98,7 @@ Real-time calculation of:
 
 ## Data Sources
 
-US fund data is based on publicly available information from financial reports and industry publications.
-
-Chinese fund data is based on:
-- Chinese financial media reports
-- Fund ranking websites (私募排排网, etc.)
-- Public disclosures from fund management companies
-- Social media and industry discussions
+Individual entries need dated, traceable sources before they can support a financial comparison. Contributions should include the original source, reporting period, currency and measurement basis.
 
 ## License
 

@@ -28,11 +28,14 @@ function initializeEventListeners() {
     // Sort by
     document.getElementById('sortBy').addEventListener('change', (e) => {
         currentSort = e.target.value;
+        switchTab(currentSort);
         filterAndRender();
     });
 }
 
 function switchTab(tab) {
+    currentSort = tab;
+    document.getElementById('sortBy').value = tab;
     // Update tab buttons
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.classList.remove('active');
