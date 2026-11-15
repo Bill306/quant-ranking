@@ -1,5 +1,16 @@
 # Quantitative Hedge Fund Rankings
 
+**English** · [简体中文](README.zh-CN.md)
+
+A table to explore, a founder to look up, and a reminder to ask which year the numbers came from.
+
+```mermaid
+flowchart LR
+  A[Stored fund dataset] --> B[Country and ranking filters]
+  B --> C[Ranking table]
+  C --> D[Founder details]
+```
+
 A modern, interactive website displaying quantitative hedge fund rankings by Assets Under Management (AUM) and annual returns for China and United States.
 
 ## Features
@@ -28,7 +39,7 @@ All data is based on publicly available information from 2024-2025.
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Bill306/quant-ranking.git
 cd quant-ranking
 ```
 
